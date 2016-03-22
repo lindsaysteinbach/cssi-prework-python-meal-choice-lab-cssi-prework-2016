@@ -6,7 +6,7 @@ from meal_choice import *
 class TestMealChoice(unittest.TestCase):
 
     def test_meal_choice_no_arg(self):
-        self.assertEqual(meal_choice(), "Meat")
+        self.assertEqual(meal_choice(), "meat")
 
     def test_meal_choice_with_arg(self):
         self.assertEqual(meal_choice("Vegan"), "Vegan")
